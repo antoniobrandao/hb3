@@ -1,0 +1,63 @@
+{
+  "name": "hummingbot",
+  "private": true,
+  "description": "Hummingbot",
+  "version": "0.0.1",
+  "dependencies": {
+    "@loadable/component": "^5.15.0",
+    "@react-hook/resize-observer": "^1.2.2",
+    "gatsby": "^3.10.1",
+    "gatsby-plugin-gatsby-cloud": "^2.6.1",
+    "gatsby-plugin-heap": "^1.1.0",
+    "gatsby-plugin-loadable-components-ssr": "^3.1.0",
+    "gatsby-plugin-minify": "^0.4.0",
+    "gatsby-plugin-no-sourcemaps": "^3.8.0",
+    "gatsby-plugin-nprogress": "^3.7.1",
+    "gatsby-plugin-offline": "^4.6.0",
+    "gatsby-plugin-preact": "^5.7.1",
+    "gatsby-plugin-preconnect": "^1.2.0",
+    "gatsby-plugin-remove-fingerprints": "^0.0.2",
+    "gatsby-plugin-robots-txt": "^1.6.2",
+    "gatsby-plugin-sass": "^4.8.0",
+    "gatsby-plugin-styled-components": "^4.8.0",
+    "path": "^0.12.7",
+    "pixi.js": "^6.0.4",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-pixi-fiber": "^0.14.3",
+    "sass": "^1.35.1",
+    "styled-components": "^5.3.0",
+    "swr": "^0.5.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@loadable/babel-plugin": "^5.13.2",
+    "@loadable/server": "^5.15.0",
+    "@loadable/webpack-plugin": "^5.15.0",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-styled-components": "^1.12.0",
+    "babel-preset-gatsby": "^1.8.0",
+    "babel-preset-react-app": "^10.0.0",
+    "gatsby-plugin-perf-budgets": "^0.0.18",
+    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.22",
+    "prettier": "2.2.1",
+    "uglifyjs-webpack-plugin": "^2.2.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "build:dev": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "engines": {
+    "node": ">= 12.19.0",
+    "npm": ">= 6.14.8"
+  }
+}
